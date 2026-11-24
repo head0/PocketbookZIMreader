@@ -48,8 +48,8 @@ que de `libinkview` (fournie par le firmware) et de la libc.
 Testé sur PC et en émulation ARM (qemu) avec le compilateur du SDK PocketBook : lecture
 ZIM, mise en page, images, recherche, archives de plus de 4 Go découpées.
 **La partie écran/tactile (inkview) n'a pas encore été validée sur une vraie liseuse.**
-Cible : PocketBook Verse Pro (PB634) ; devrait fonctionner sur les autres modèles tactiles
-au firmware 6.x.
+Cible : PocketBook Verse (PB629, écran 758 × 1024, avec carte microSD) ; devrait fonctionner
+sur les autres modèles tactiles au firmware 6.x (la mise en page s'adapte à la taille d'écran).
 
 Limites connues : pas de recherche plein texte ni de tolérance aux accents manquants,
 pas de formules mathématiques (le source LaTeX est affiché), tableaux affichés ligne par ligne.
